@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    
+}
+
+.headerLeft{
+    display: flex;
+    align-items: center;
+}
+.headerLeft{
+    justify-content: center;
+}
+.logo{
+    padding: 22px 30px;
+    border-right: 1px solid cadetblue; 
+    border-top: 1px ;
+    border-bottom: 1px ;
+
+} 
+
+.headeraddress{
+    padding: 10px ;
+}
+
+.headeraddress h3{
+    padding: 1px;
+    margin-bottom: 5px;
+}
+
+.headeraddress p{
+    padding: 1px;
+}
+
+
+.searchBox{
+    flex-grow: 1;
+    background-color: #f8f8f8;
+    display: flex;
+    border-radius: 15px;
+    border: 1px solid #f4f4f4;
+
+}
+.searchBox button{
+    padding: 15px;
+    border: none;
+    background-color: transparent
+}
+
+
+.searchBox input{
+    flex-grow: 1;
+    border: none;
+    background-color: transparent
+
+}
+
+
+.searchBox input:focus{
+    outline: none;
+}
+
+
+.headerBtn{
+    display: flex;
+    gap: 40px;
+    margin-right: 40px;
+}
+
+.headerBtn button{
+    font-size: 16px;
+    padding: 15px;
+    border: none;
+    background-color: transparent;
+  
+}
+
+.headerBtn button:last-child{
+    color:white;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: rgb(12, 131, 31);
+
+}
+
+
+.bannerSetion{
+    margin: 0px auto;
+    max-width: 1280px;
+}
+
+.bannerSetion img{
+    width: 100%;
+}
+
+.orderBanner{
+    display: flex;
+    max-width: 1280px;
+    margin: auto;
+}
+
+
+orderBannerItems{
+    flex-basis: 27%;
+}
+
+
+
+
