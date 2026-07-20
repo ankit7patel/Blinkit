@@ -26,12 +26,18 @@
     .headerBtn{
         position: fixed;
         width: 100%;
+        background-color: white;
         margin-right: 0px;
         justify-content: center;
         bottom: 0px;
+
     }
     .bannerSetion{
         display: none;
+    }
+
+    .orderBanner{
+        flex-direction: column;
     }
 
 }

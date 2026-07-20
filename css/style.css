@@ -110,8 +110,27 @@ header{
 }
 
 
-orderBannerItems{
+.orderBannerItems{
     flex-basis: 27%;
+    margin: 1%;
+}
+
+.orderBannerItems img{
+    width: 100%;
+}
+
+
+.categorySection{
+    max-width: 1280p;
+    flex-wrap: wrap;
+    display: flex;
+    margin: auto;
+
+
+}
+
+.categoryItems{
+    flex-basis: 10%;
 }
 
 
